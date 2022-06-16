@@ -2,7 +2,7 @@
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-error_reporting(E_ALL); //Para mostrar errores
+error_reporting(E_ALL); //Para mostrar errores.
 
  if(file_exists("archivo.txt")){
             $strJson = file_get_contents("archivo.txt");
